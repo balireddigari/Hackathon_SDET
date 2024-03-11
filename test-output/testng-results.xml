@@ -2,162 +2,162 @@
 <testng-results ignored="12" total="45" passed="33" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-02-29T10:35:35 IST" name="Suite" finished-at="2024-02-29T10:39:07 IST" duration-ms="212597">
+  <suite started-at="2024-03-08T16:21:26 IST" name="Suite" finished-at="2024-03-08T16:25:09 IST" duration-ms="223624">
     <groups>
     </groups>
-    <test started-at="2024-02-29T10:35:35 IST" name="Test" finished-at="2024-02-29T10:39:07 IST" duration-ms="212597">
-      <class name="Tests.Home_Loan_Test">
-        <test-method signature="openApp()[pri:1, instance:Tests.Home_Loan_Test@5e600dd5]" started-at="2024-02-29T10:36:11 IST" name="openApp" finished-at="2024-02-29T10:36:13 IST" duration-ms="1358" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- openApp -->
-        <test-method signature="homeLoan()[pri:2, instance:Tests.Home_Loan_Test@5e600dd5]" started-at="2024-02-29T10:36:13 IST" name="homeLoan" finished-at="2024-02-29T10:36:15 IST" depends-on-methods="Tests.Home_Loan_Test.openApp" duration-ms="2190" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- homeLoan -->
-        <test-method signature="loan_amount()[pri:3, instance:Tests.Home_Loan_Test@5e600dd5]" started-at="2024-02-29T10:36:15 IST" name="loan_amount" finished-at="2024-02-29T10:36:20 IST" depends-on-methods="Tests.Home_Loan_Test.openApp" duration-ms="5029" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- loan_amount -->
-        <test-method signature="interest_rate()[pri:4, instance:Tests.Home_Loan_Test@5e600dd5]" started-at="2024-02-29T10:36:20 IST" name="interest_rate" finished-at="2024-02-29T10:36:22 IST" depends-on-methods="Tests.Home_Loan_Test.openApp" duration-ms="2711" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- interest_rate -->
-        <test-method signature="Loan_tenure()[pri:5, instance:Tests.Home_Loan_Test@5e600dd5]" started-at="2024-02-29T10:36:22 IST" name="Loan_tenure" finished-at="2024-02-29T10:36:25 IST" duration-ms="2799" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Loan_tenure -->
-        <test-method signature="printHL()[pri:6, instance:Tests.Home_Loan_Test@5e600dd5]" started-at="2024-02-29T10:36:25 IST" name="printHL" finished-at="2024-02-29T10:36:29 IST" duration-ms="3453" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- printHL -->
-        <test-method signature="storeDataInexcel()[pri:7, instance:Tests.Home_Loan_Test@5e600dd5]" started-at="2024-02-29T10:36:29 IST" name="storeDataInexcel" finished-at="2024-02-29T10:37:05 IST" duration-ms="36209" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- storeDataInexcel -->
-      </class> <!-- Tests.Home_Loan_Test -->
-      <class name="Tests.UICheck_LoanAmountCal">
-        <test-method signature="setupApp()[pri:1, instance:Tests.UICheck_LoanAmountCal@a38c7fe]" started-at="2024-02-29T10:37:42 IST" name="setupApp" finished-at="2024-02-29T10:37:43 IST" duration-ms="1013" status="PASS">
+    <test started-at="2024-03-08T16:21:26 IST" name="Test" finished-at="2024-03-08T16:25:09 IST" duration-ms="223624">
+      <class name="TestCases.UICheck_EMICal">
+        <test-method signature="setupApp()[pri:1, instance:TestCases.UICheck_EMICal@576d5deb]" started-at="2024-03-08T16:23:02 IST" name="setupApp" finished-at="2024-03-08T16:23:04 IST" duration-ms="1613" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setupApp -->
-        <test-method signature="Menubutton()[pri:2, instance:Tests.UICheck_LoanAmountCal@a38c7fe]" started-at="2024-02-29T10:37:43 IST" name="Menubutton" finished-at="2024-02-29T10:37:50 IST" depends-on-methods="Tests.UICheck_LoanAmountCal.setupApp" duration-ms="6761" status="PASS">
+        <test-method signature="Menubutton()[pri:2, instance:TestCases.UICheck_EMICal@576d5deb]" started-at="2024-03-08T16:23:04 IST" name="Menubutton" finished-at="2024-03-08T16:23:12 IST" depends-on-methods="TestCases.UICheck_EMICal.setupApp" duration-ms="8537" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Menubutton -->
-        <test-method signature="Loanamount()[pri:3, instance:Tests.UICheck_LoanAmountCal@a38c7fe]" started-at="2024-02-29T10:37:50 IST" name="Loanamount" finished-at="2024-02-29T10:37:57 IST" depends-on-methods="Tests.UICheck_LoanAmountCal.setupApp" duration-ms="6539" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Loanamount -->
-        <test-method signature="interestRate()[pri:4, instance:Tests.UICheck_LoanAmountCal@a38c7fe]" started-at="2024-02-29T10:37:57 IST" name="interestRate" finished-at="2024-02-29T10:38:03 IST" depends-on-methods="Tests.UICheck_LoanAmountCal.setupApp" duration-ms="6591" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- interestRate -->
-        <test-method signature="LoanTenure()[pri:5, instance:Tests.UICheck_LoanAmountCal@a38c7fe]" started-at="2024-02-29T10:38:03 IST" name="LoanTenure" finished-at="2024-02-29T10:38:10 IST" depends-on-methods="Tests.UICheck_LoanAmountCal.setupApp" duration-ms="6651" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- LoanTenure -->
-        <test-method signature="feesCharges()[pri:6, instance:Tests.UICheck_LoanAmountCal@a38c7fe]" started-at="2024-02-29T10:38:10 IST" name="feesCharges" finished-at="2024-02-29T10:38:17 IST" depends-on-methods="Tests.UICheck_LoanAmountCal.setupApp" duration-ms="6623" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- feesCharges -->
-      </class> <!-- Tests.UICheck_LoanAmountCal -->
-      <class name="Tests.MonthandYear_Test">
-        <test-method signature="openApp()[pri:1, instance:Tests.MonthandYear_Test@6221a451]" started-at="2024-02-29T10:38:53 IST" name="openApp" finished-at="2024-02-29T10:38:54 IST" duration-ms="1062" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- openApp -->
-        <test-method signature="button()[pri:2, instance:Tests.MonthandYear_Test@6221a451]" started-at="2024-02-29T10:38:54 IST" name="button" finished-at="2024-02-29T10:39:01 IST" depends-on-methods="Tests.MonthandYear_Test.openApp" duration-ms="6703" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- button -->
-        <test-method signature="yearAndMonth_Emi()[pri:3, instance:Tests.MonthandYear_Test@6221a451]" started-at="2024-02-29T10:39:01 IST" name="yearAndMonth_Emi" finished-at="2024-02-29T10:39:07 IST" depends-on-methods="Tests.MonthandYear_Test.openApp" duration-ms="6482" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- yearAndMonth_Emi -->
-      </class> <!-- Tests.MonthandYear_Test -->
-      <class name="Tests.UICheck_LoanTenureCal">
-        <test-method signature="setupApp()[pri:1, instance:Tests.UICheck_LoanTenureCal@51c668e3]" started-at="2024-02-29T10:38:17 IST" name="setupApp" finished-at="2024-02-29T10:38:18 IST" duration-ms="1185" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setupApp -->
-        <test-method signature="Menubutton()[pri:2, instance:Tests.UICheck_LoanTenureCal@51c668e3]" started-at="2024-02-29T10:38:18 IST" name="Menubutton" finished-at="2024-02-29T10:38:25 IST" depends-on-methods="Tests.UICheck_LoanTenureCal.setupApp" duration-ms="6769" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Menubutton -->
-        <test-method signature="LoanAmount()[pri:3, instance:Tests.UICheck_LoanTenureCal@51c668e3]" started-at="2024-02-29T10:38:25 IST" name="LoanAmount" finished-at="2024-02-29T10:38:30 IST" depends-on-methods="Tests.UICheck_LoanTenureCal.setupApp" duration-ms="5582" status="PASS">
+        <test-method signature="LoanAmount()[pri:3, instance:TestCases.UICheck_EMICal@576d5deb]" started-at="2024-03-08T16:23:12 IST" name="LoanAmount" finished-at="2024-03-08T16:23:18 IST" depends-on-methods="TestCases.UICheck_EMICal.setupApp" duration-ms="5871" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- LoanAmount -->
-        <test-method signature="EMI_check()[pri:4, instance:Tests.UICheck_LoanTenureCal@51c668e3]" started-at="2024-02-29T10:38:30 IST" name="EMI_check" finished-at="2024-02-29T10:38:38 IST" depends-on-methods="Tests.UICheck_LoanTenureCal.setupApp" duration-ms="7583" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- EMI_check -->
-        <test-method signature="Loan_Interest()[pri:5, instance:Tests.UICheck_LoanTenureCal@51c668e3]" started-at="2024-02-29T10:38:38 IST" name="Loan_Interest" finished-at="2024-02-29T10:38:45 IST" depends-on-methods="Tests.UICheck_LoanTenureCal.setupApp" duration-ms="7688" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Loan_Interest -->
-        <test-method signature="feescharges()[pri:6, instance:Tests.UICheck_LoanTenureCal@51c668e3]" started-at="2024-02-29T10:38:45 IST" name="feescharges" finished-at="2024-02-29T10:38:53 IST" depends-on-methods="Tests.UICheck_LoanTenureCal.setupApp" duration-ms="7634" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- feescharges -->
-      </class> <!-- Tests.UICheck_LoanTenureCal -->
-      <class name="Tests.Car_Loan_Test">
-        <test-method is-config="true" signature="setupDriver()[pri:0, instance:Tests.Car_Loan_Test@2d52216b]" started-at="2024-02-29T10:35:27 IST" name="setupDriver" finished-at="2024-02-29T10:35:35 IST" duration-ms="7993" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setupDriver -->
-        <test-method signature="openApp()[pri:1, instance:Tests.Car_Loan_Test@2d52216b]" started-at="2024-02-29T10:35:35 IST" name="openApp" finished-at="2024-02-29T10:35:41 IST" duration-ms="5179" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- openApp -->
-        <test-method signature="carLoan()[pri:2, instance:Tests.Car_Loan_Test@2d52216b]" started-at="2024-02-29T10:35:41 IST" name="carLoan" finished-at="2024-02-29T10:35:48 IST" depends-on-methods="Tests.Car_Loan_Test.openApp" duration-ms="7724" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- carLoan -->
-        <test-method signature="carInterestRate()[pri:3, instance:Tests.Car_Loan_Test@2d52216b]" started-at="2024-02-29T10:35:48 IST" name="carInterestRate" finished-at="2024-02-29T10:35:53 IST" depends-on-methods="Tests.Car_Loan_Test.openApp, Tests.Car_Loan_Test.carLoan" duration-ms="4649" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- carInterestRate -->
-        <test-method signature="carLoanTenure()[pri:4, instance:Tests.Car_Loan_Test@2d52216b]" started-at="2024-02-29T10:35:53 IST" name="carLoanTenure" finished-at="2024-02-29T10:35:57 IST" depends-on-methods="Tests.Car_Loan_Test.openApp, Tests.Car_Loan_Test.carLoan" duration-ms="3640" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- carLoanTenure -->
-        <test-method signature="carIAPA()[pri:5, instance:Tests.Car_Loan_Test@2d52216b]" started-at="2024-02-29T10:35:57 IST" name="carIAPA" finished-at="2024-02-29T10:36:11 IST" depends-on-methods="Tests.Car_Loan_Test.openApp, Tests.Car_Loan_Test.carLoanTenure, Tests.Car_Loan_Test.carInterestRate, Tests.Car_Loan_Test.carLoan" duration-ms="14478" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- carIAPA -->
-        <test-method is-config="true" signature="exit()[pri:0, instance:Tests.Car_Loan_Test@2d52216b]" started-at="2024-02-29T10:39:08 IST" name="exit" finished-at="2024-02-29T10:39:09 IST" duration-ms="1030" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- exit -->
-      </class> <!-- Tests.Car_Loan_Test -->
-      <class name="Tests.UICheck_EMICal">
-        <test-method signature="setupApp()[pri:1, instance:Tests.UICheck_EMICal@70e9c95d]" started-at="2024-02-29T10:37:05 IST" name="setupApp" finished-at="2024-02-29T10:37:06 IST" duration-ms="1424" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setupApp -->
-        <test-method signature="Menubutton()[pri:2, instance:Tests.UICheck_EMICal@70e9c95d]" started-at="2024-02-29T10:37:06 IST" name="Menubutton" finished-at="2024-02-29T10:37:14 IST" depends-on-methods="Tests.UICheck_EMICal.setupApp" duration-ms="7666" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Menubutton -->
-        <test-method signature="LoanAmount()[pri:3, instance:Tests.UICheck_EMICal@70e9c95d]" started-at="2024-02-29T10:37:14 IST" name="LoanAmount" finished-at="2024-02-29T10:37:20 IST" depends-on-methods="Tests.UICheck_EMICal.setupApp" duration-ms="5632" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- LoanAmount -->
-        <test-method signature="Interest_Rate()[pri:4, instance:Tests.UICheck_EMICal@70e9c95d]" started-at="2024-02-29T10:37:20 IST" name="Interest_Rate" finished-at="2024-02-29T10:37:27 IST" depends-on-methods="Tests.UICheck_EMICal.setupApp" duration-ms="7638" status="PASS">
+        <test-method signature="Interest_Rate()[pri:4, instance:TestCases.UICheck_EMICal@576d5deb]" started-at="2024-03-08T16:23:18 IST" name="Interest_Rate" finished-at="2024-03-08T16:23:26 IST" depends-on-methods="TestCases.UICheck_EMICal.setupApp" duration-ms="7660" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Interest_Rate -->
-        <test-method signature="Loan_Tenure()[pri:5, instance:Tests.UICheck_EMICal@70e9c95d]" started-at="2024-02-29T10:37:27 IST" name="Loan_Tenure" finished-at="2024-02-29T10:37:35 IST" depends-on-methods="Tests.UICheck_EMICal.setupApp" duration-ms="7559" status="PASS">
+        <test-method signature="Loan_Tenure()[pri:5, instance:TestCases.UICheck_EMICal@576d5deb]" started-at="2024-03-08T16:23:26 IST" name="Loan_Tenure" finished-at="2024-03-08T16:23:33 IST" depends-on-methods="TestCases.UICheck_EMICal.setupApp" duration-ms="7698" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Loan_Tenure -->
-        <test-method signature="feescharges()[pri:6, instance:Tests.UICheck_EMICal@70e9c95d]" started-at="2024-02-29T10:37:35 IST" name="feescharges" finished-at="2024-02-29T10:37:42 IST" depends-on-methods="Tests.UICheck_EMICal.setupApp" duration-ms="7573" status="PASS">
+        <test-method signature="feescharges()[pri:6, instance:TestCases.UICheck_EMICal@576d5deb]" started-at="2024-03-08T16:23:33 IST" name="feescharges" finished-at="2024-03-08T16:23:41 IST" depends-on-methods="TestCases.UICheck_EMICal.setupApp" duration-ms="7626" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- feescharges -->
-      </class> <!-- Tests.UICheck_EMICal -->
+      </class> <!-- TestCases.UICheck_EMICal -->
+      <class name="TestCases.UICheck_LoanTenureCal">
+        <test-method signature="setupApp()[pri:1, instance:TestCases.UICheck_LoanTenureCal@4d5650ae]" started-at="2024-03-08T16:24:16 IST" name="setupApp" finished-at="2024-03-08T16:24:18 IST" duration-ms="1691" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupApp -->
+        <test-method signature="Menubutton()[pri:2, instance:TestCases.UICheck_LoanTenureCal@4d5650ae]" started-at="2024-03-08T16:24:18 IST" name="Menubutton" finished-at="2024-03-08T16:24:26 IST" depends-on-methods="TestCases.UICheck_LoanTenureCal.setupApp" duration-ms="7473" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Menubutton -->
+        <test-method signature="LoanAmount()[pri:3, instance:TestCases.UICheck_LoanTenureCal@4d5650ae]" started-at="2024-03-08T16:24:26 IST" name="LoanAmount" finished-at="2024-03-08T16:24:31 IST" depends-on-methods="TestCases.UICheck_LoanTenureCal.setupApp" duration-ms="5601" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoanAmount -->
+        <test-method signature="EMI_check()[pri:4, instance:TestCases.UICheck_LoanTenureCal@4d5650ae]" started-at="2024-03-08T16:24:31 IST" name="EMI_check" finished-at="2024-03-08T16:24:39 IST" depends-on-methods="TestCases.UICheck_LoanTenureCal.setupApp" duration-ms="7597" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- EMI_check -->
+        <test-method signature="Loan_Interest()[pri:5, instance:TestCases.UICheck_LoanTenureCal@4d5650ae]" started-at="2024-03-08T16:24:39 IST" name="Loan_Interest" finished-at="2024-03-08T16:24:46 IST" depends-on-methods="TestCases.UICheck_LoanTenureCal.setupApp" duration-ms="7606" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Loan_Interest -->
+        <test-method signature="feescharges()[pri:6, instance:TestCases.UICheck_LoanTenureCal@4d5650ae]" started-at="2024-03-08T16:24:46 IST" name="feescharges" finished-at="2024-03-08T16:24:54 IST" depends-on-methods="TestCases.UICheck_LoanTenureCal.setupApp" duration-ms="7612" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- feescharges -->
+      </class> <!-- TestCases.UICheck_LoanTenureCal -->
+      <class name="TestCases.Home_Loan_Test">
+        <test-method signature="openApp()[pri:1, instance:TestCases.Home_Loan_Test@60bd273d]" started-at="2024-03-08T16:22:05 IST" name="openApp" finished-at="2024-03-08T16:22:07 IST" duration-ms="1520" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openApp -->
+        <test-method signature="homeLoan()[pri:2, instance:TestCases.Home_Loan_Test@60bd273d]" started-at="2024-03-08T16:22:07 IST" name="homeLoan" finished-at="2024-03-08T16:22:09 IST" depends-on-methods="TestCases.Home_Loan_Test.openApp" duration-ms="2348" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- homeLoan -->
+        <test-method signature="loan_amount()[pri:3, instance:TestCases.Home_Loan_Test@60bd273d]" started-at="2024-03-08T16:22:09 IST" name="loan_amount" finished-at="2024-03-08T16:22:14 IST" depends-on-methods="TestCases.Home_Loan_Test.openApp" duration-ms="5167" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loan_amount -->
+        <test-method signature="interest_rate()[pri:4, instance:TestCases.Home_Loan_Test@60bd273d]" started-at="2024-03-08T16:22:14 IST" name="interest_rate" finished-at="2024-03-08T16:22:17 IST" depends-on-methods="TestCases.Home_Loan_Test.openApp" duration-ms="2909" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- interest_rate -->
+        <test-method signature="Loan_tenure()[pri:5, instance:TestCases.Home_Loan_Test@60bd273d]" started-at="2024-03-08T16:22:17 IST" name="Loan_tenure" finished-at="2024-03-08T16:22:20 IST" duration-ms="3501" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Loan_tenure -->
+        <test-method signature="printHL()[pri:6, instance:TestCases.Home_Loan_Test@60bd273d]" started-at="2024-03-08T16:22:20 IST" name="printHL" finished-at="2024-03-08T16:22:24 IST" duration-ms="3471" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- printHL -->
+        <test-method signature="storeDataInexcel()[pri:7, instance:TestCases.Home_Loan_Test@60bd273d]" started-at="2024-03-08T16:22:24 IST" name="storeDataInexcel" finished-at="2024-03-08T16:23:02 IST" duration-ms="38000" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- storeDataInexcel -->
+      </class> <!-- TestCases.Home_Loan_Test -->
+      <class name="TestCases.UICheck_LoanAmountCal">
+        <test-method signature="setupApp()[pri:1, instance:TestCases.UICheck_LoanAmountCal@2e3967ea]" started-at="2024-03-08T16:23:41 IST" name="setupApp" finished-at="2024-03-08T16:23:42 IST" duration-ms="1136" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupApp -->
+        <test-method signature="Menubutton()[pri:2, instance:TestCases.UICheck_LoanAmountCal@2e3967ea]" started-at="2024-03-08T16:23:42 IST" name="Menubutton" finished-at="2024-03-08T16:23:50 IST" depends-on-methods="TestCases.UICheck_LoanAmountCal.setupApp" duration-ms="7668" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Menubutton -->
+        <test-method signature="Loanamount()[pri:3, instance:TestCases.UICheck_LoanAmountCal@2e3967ea]" started-at="2024-03-08T16:23:50 IST" name="Loanamount" finished-at="2024-03-08T16:23:56 IST" depends-on-methods="TestCases.UICheck_LoanAmountCal.setupApp" duration-ms="6608" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Loanamount -->
+        <test-method signature="interestRate()[pri:4, instance:TestCases.UICheck_LoanAmountCal@2e3967ea]" started-at="2024-03-08T16:23:56 IST" name="interestRate" finished-at="2024-03-08T16:24:03 IST" depends-on-methods="TestCases.UICheck_LoanAmountCal.setupApp" duration-ms="6682" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- interestRate -->
+        <test-method signature="LoanTenure()[pri:5, instance:TestCases.UICheck_LoanAmountCal@2e3967ea]" started-at="2024-03-08T16:24:03 IST" name="LoanTenure" finished-at="2024-03-08T16:24:10 IST" depends-on-methods="TestCases.UICheck_LoanAmountCal.setupApp" duration-ms="6584" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoanTenure -->
+        <test-method signature="feesCharges()[pri:6, instance:TestCases.UICheck_LoanAmountCal@2e3967ea]" started-at="2024-03-08T16:24:10 IST" name="feesCharges" finished-at="2024-03-08T16:24:16 IST" depends-on-methods="TestCases.UICheck_LoanAmountCal.setupApp" duration-ms="6804" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- feesCharges -->
+      </class> <!-- TestCases.UICheck_LoanAmountCal -->
+      <class name="TestCases.Car_Loan_Test">
+        <test-method is-config="true" signature="setupDriver()[pri:0, instance:TestCases.Car_Loan_Test@272113c4]" started-at="2024-03-08T16:21:15 IST" name="setupDriver" finished-at="2024-03-08T16:21:26 IST" duration-ms="10923" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupDriver -->
+        <test-method signature="openApp()[pri:1, instance:TestCases.Car_Loan_Test@272113c4]" started-at="2024-03-08T16:21:26 IST" name="openApp" finished-at="2024-03-08T16:21:32 IST" duration-ms="5880" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openApp -->
+        <test-method signature="carLoan()[pri:2, instance:TestCases.Car_Loan_Test@272113c4]" started-at="2024-03-08T16:21:32 IST" name="carLoan" finished-at="2024-03-08T16:21:42 IST" depends-on-methods="TestCases.Car_Loan_Test.openApp" duration-ms="9478" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- carLoan -->
+        <test-method signature="carInterestRate()[pri:3, instance:TestCases.Car_Loan_Test@272113c4]" started-at="2024-03-08T16:21:42 IST" name="carInterestRate" finished-at="2024-03-08T16:21:47 IST" depends-on-methods="TestCases.Car_Loan_Test.openApp, TestCases.Car_Loan_Test.carLoan" duration-ms="4970" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- carInterestRate -->
+        <test-method signature="carLoanTenure()[pri:4, instance:TestCases.Car_Loan_Test@272113c4]" started-at="2024-03-08T16:21:47 IST" name="carLoanTenure" finished-at="2024-03-08T16:21:51 IST" depends-on-methods="TestCases.Car_Loan_Test.openApp, TestCases.Car_Loan_Test.carLoan" duration-ms="3781" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- carLoanTenure -->
+        <test-method signature="carIAPA()[pri:5, instance:TestCases.Car_Loan_Test@272113c4]" started-at="2024-03-08T16:21:51 IST" name="carIAPA" finished-at="2024-03-08T16:22:05 IST" depends-on-methods="TestCases.Car_Loan_Test.openApp, TestCases.Car_Loan_Test.carLoanTenure, TestCases.Car_Loan_Test.carInterestRate, TestCases.Car_Loan_Test.carLoan" duration-ms="14356" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- carIAPA -->
+        <test-method is-config="true" signature="exit()[pri:0, instance:TestCases.Car_Loan_Test@272113c4]" started-at="2024-03-08T16:25:10 IST" name="exit" finished-at="2024-03-08T16:25:22 IST" duration-ms="11367" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- exit -->
+      </class> <!-- TestCases.Car_Loan_Test -->
+      <class name="TestCases.MonthandYear_Test">
+        <test-method signature="openApp()[pri:1, instance:TestCases.MonthandYear_Test@6fdbe764]" started-at="2024-03-08T16:24:54 IST" name="openApp" finished-at="2024-03-08T16:24:56 IST" duration-ms="1801" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openApp -->
+        <test-method signature="button()[pri:2, instance:TestCases.MonthandYear_Test@6fdbe764]" started-at="2024-03-08T16:24:56 IST" name="button" finished-at="2024-03-08T16:25:03 IST" depends-on-methods="TestCases.MonthandYear_Test.openApp" duration-ms="6973" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- button -->
+        <test-method signature="yearAndMonth_Emi()[pri:3, instance:TestCases.MonthandYear_Test@6fdbe764]" started-at="2024-03-08T16:25:03 IST" name="yearAndMonth_Emi" finished-at="2024-03-08T16:25:09 IST" depends-on-methods="TestCases.MonthandYear_Test.openApp" duration-ms="6532" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- yearAndMonth_Emi -->
+      </class> <!-- TestCases.MonthandYear_Test -->
     </test> <!-- Test -->
   </suite> <!-- Suite -->
 </testng-results>

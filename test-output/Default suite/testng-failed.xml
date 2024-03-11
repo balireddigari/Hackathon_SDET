@@ -3,16 +3,17 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="Tests.UICheck_EMICal">
+      <class name="TestCases.Car_Loan_Test">
         <methods>
-          <include name="Loan_Tenure"/>
+          <include name="carLoanTenure"/>
+          <include name="carLoan"/>
           <include name="exit"/>
-          <include name="setupApp"/>
-          <include name="Interest_Rate"/>
+          <include name="carInterestRate"/>
+          <include name="carIAPA"/>
+          <include name="openApp"/>
           <include name="setupDriver"/>
-          <include name="LoanAmount"/>
         </methods>
-      </class> <!-- Tests.UICheck_EMICal -->
+      </class> <!-- TestCases.Car_Loan_Test -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

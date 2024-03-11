@@ -2,34 +2,79 @@
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
 <suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
   <listeners>
-    <listener class-name="Tests.ExtentReportManager"/>
+    <listener class-name="Utilities.ExtentReportManager"/>
   </listeners>
   <test thread-count="5" name="Test(failed)">
     <classes>
-      <class name="Tests.UICheck_EMICal">
+      <class name="TestCases.Home_Loan_Test">
         <methods>
-          <include name="feescharges"/>
-          <include name="Loan_Tenure"/>
+          <include name="openApp"/>
           <include name="exit"/>
-          <include name="setupApp"/>
-          <include name="Interest_Rate"/>
-          <include name="Menubutton"/>
+          <include name="storeDataInexcel"/>
+          <include name="homeLoan"/>
+          <include name="Loan_tenure"/>
+          <include name="printHL"/>
+          <include name="loan_amount"/>
           <include name="setupDriver"/>
-          <include name="LoanAmount"/>
+          <include name="interest_rate"/>
         </methods>
-      </class> <!-- Tests.UICheck_EMICal -->
-      <class name="Tests.UICheck_LoanTenureCal">
+      </class> <!-- TestCases.Home_Loan_Test -->
+      <class name="TestCases.Car_Loan_Test">
         <methods>
+          <include name="carLoanTenure"/>
+          <include name="carLoan"/>
+          <include name="exit"/>
+          <include name="carInterestRate"/>
+          <include name="carIAPA"/>
+          <include name="openApp"/>
+          <include name="setupDriver"/>
+        </methods>
+      </class> <!-- TestCases.Car_Loan_Test -->
+      <class name="TestCases.UICheck_LoanTenureCal">
+        <methods>
+          <include name="setupApp"/>
+          <include name="LoanAmount"/>
+          <include name="Menubutton"/>
+          <include name="exit"/>
+          <include name="feescharges"/>
           <include name="EMI_check"/>
           <include name="Loan_Interest"/>
-          <include name="feescharges"/>
+          <include name="setupDriver"/>
+        </methods>
+      </class> <!-- TestCases.UICheck_LoanTenureCal -->
+      <class name="TestCases.MonthandYear_Test">
+        <methods>
           <include name="exit"/>
+          <include name="button"/>
+          <include name="openApp"/>
+          <include name="setupDriver"/>
+          <include name="yearAndMonth_Emi"/>
+        </methods>
+      </class> <!-- TestCases.MonthandYear_Test -->
+      <class name="TestCases.UICheck_LoanAmountCal">
+        <methods>
+          <include name="interestRate"/>
+          <include name="setupApp"/>
+          <include name="Menubutton"/>
+          <include name="exit"/>
+          <include name="feesCharges"/>
+          <include name="setupDriver"/>
+          <include name="LoanTenure"/>
+          <include name="Loanamount"/>
+        </methods>
+      </class> <!-- TestCases.UICheck_LoanAmountCal -->
+      <class name="TestCases.UICheck_EMICal">
+        <methods>
           <include name="LoanAmount"/>
           <include name="Menubutton"/>
           <include name="setupApp"/>
+          <include name="Interest_Rate"/>
+          <include name="exit"/>
+          <include name="Loan_Tenure"/>
           <include name="setupDriver"/>
+          <include name="feescharges"/>
         </methods>
-      </class> <!-- Tests.UICheck_LoanTenureCal -->
+      </class> <!-- TestCases.UICheck_EMICal -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->
